@@ -1,0 +1,7 @@
+requests
+gpiozero
+Adafruit-DHT
+hx711
+smbus2
+bmp280
+picamera
