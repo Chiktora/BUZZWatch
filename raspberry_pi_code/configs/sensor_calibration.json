@@ -1,0 +1,5 @@
+{
+  "temperature_offset": 0.0,
+  "humidity_offset": 0.0,
+  "weight_calibration_factor": 1.0
+}

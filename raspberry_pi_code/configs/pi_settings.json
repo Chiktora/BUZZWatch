@@ -1,0 +1,11 @@
+{
+  "api_url": "http://example.com/api",
+  "camera_settings": {
+    "resolution": [1920, 1080],
+    "image_format": "jpg"
+  },
+  "sensors": {
+    "temperature_humidity": true,
+    "weight": true
+  }
+}
