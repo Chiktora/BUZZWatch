@@ -1,1 +1,0 @@
-# Setup script for the BUZZWatch project

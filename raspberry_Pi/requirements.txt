@@ -1,0 +1,5 @@
+picamera2
+schedule
+requests
+gpiozero
+Adafruit-DHT

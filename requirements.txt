@@ -1,8 +1,0 @@
-hx711
-smbus2
-bmp280
-picamera2
-schedule
-requests
-gpiozero
-Adafruit-DHT
