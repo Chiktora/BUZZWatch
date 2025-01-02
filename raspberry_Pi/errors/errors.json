@@ -1,0 +1,2397 @@
+[
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:19:21"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:23:28"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:23:28"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:23:29"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:28:30"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:28:31"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:33:31"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:33:32"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:33:33"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:38:33"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:38:33"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:38:34"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:43:35"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:43:36"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:48:36"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:48:37"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:53:38"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:53:39"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 15:58:39"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 15:58:40"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:03:41"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:03:42"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:08:42"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:08:43"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:08:44"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:13:44"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:13:44"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:13:45"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:13:46"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:18:46"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:18:47"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:23:47"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:23:48"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:28:49"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:28:50"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:33:50"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:33:50"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:33:51"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:38:52"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:38:53"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:43:53"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:43:54"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:43:55"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:48:55"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:48:55"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:48:55"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:48:56"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:53:56"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:53:57"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:53:58"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 16:58:58"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 16:58:59"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 16:59:00"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:04:00"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:04:00"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:04:01"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:09:02"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:09:03"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:14:03"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:14:04"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:14:05"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:14:06"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:19:06"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:19:07"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:24:08"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:24:09"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:29:09"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:29:10"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:29:11"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:34:11"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:34:11"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:34:12"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:39:13"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:39:14"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:44:15"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:44:16"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:49:16"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:49:17"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:49:18"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:54:18"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:54:18"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:54:19"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 17:59:20"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 17:59:21"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:04:21"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:04:22"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:04:23"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6bca29d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:06:04"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "[Errno 2] No such file or directory: '/home/pi/BUZZWatch/raspberry_pi_code/configs/calibration_data.json'",
+        "timestamp": "2024-12-26 18:06:04"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:06:04"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a73a9d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:07:21"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "[Errno 2] No such file or directory: '/home/pi/BUZZWatch/raspberry_pi_code/configs/calibration_data.json'",
+        "timestamp": "2024-12-26 18:07:21"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:07:21"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:09:23"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:09:24"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:09:24"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6f5a29d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:10:11"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "[Errno 2] No such file or directory: '/home/pi/BUZZWatch/raspberry_pi_code/configs/calibration_data.json'",
+        "timestamp": "2024-12-26 18:10:11"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:10:11"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99e729d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:11:48"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "[Errno 2] No such file or directory: '/home/pi/BUZZWatch/raspberry_pi_code/configs/calibration_data.json'",
+        "timestamp": "2024-12-26 18:11:48"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:11:48"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:14:24"
+    },
+    {
+        "code": "CAM_INIT_FAIL",
+        "message": "Camera initialization failed.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:14:25"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:19:25"
+    },
+    {
+        "code": "CAM_INIT_FAIL",
+        "message": "Camera initialization failed.",
+        "timestamp": "2024-12-26 18:19:25"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:19:26"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:24:26"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:24:26"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:24:27"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8e1262d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "Expecting value: line 1 column 1 (char 0)",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:28:12"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:28:13"
+    },
+    {
+        "code": "FETCH_INTERVAL_ERROR",
+        "message": "HTTPConnectionPool(host='%3craspberry_pi_ip%3e', port=5000): Max retries exceeded with url: /get_interval (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8eaae890>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "LOAD_CALIBRATION_ERROR",
+        "message": "Expecting value: line 1 column 1 (char 0)",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2024-12-26 18:31:27"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2024-12-26 18:31:28"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:32:19"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:32:20"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:32:21"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:37:22"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:37:23"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:42:24"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:42:25"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:47:25"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:47:26"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:47:27"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:52:28"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:52:28"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:52:29"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-02 23:57:30"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:57:30"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-02 23:57:30"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-02 23:57:30"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-02 23:57:30"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-02 23:57:31"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-02 23:57:31"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-02 23:57:31"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-02 23:57:31"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-02 23:57:31"
+    },
+    {
+        "code": "SERVER_URL_ERROR",
+        "message": "Server URL is not configured in pi_settings.json and no default is provided.",
+        "timestamp": "2025-01-03 00:02:31"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_DHT22_MISSING",
+        "message": "DHT22 sensor failed to read: DHT sensor not found, check wiring",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "BMP280 sensor not found or failed to read.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_TEMP_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_inside.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_TEMP_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: temp_outside.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_INSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_inside.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_HUMIDITY_OUTSIDE_MISSING",
+        "message": "Missing or invalid data for sensor: humidity_outside.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "SENSOR_PRESSURE_MISSING",
+        "message": "Missing or invalid data for sensor: pressure.",
+        "timestamp": "2025-01-03 00:02:32"
+    },
+    {
+        "code": "DATA_COLLECTION_EXCEPTION",
+        "message": "Invalid URL 'None': No scheme supplied. Perhaps you meant http://None?",
+        "timestamp": "2025-01-03 00:02:33"
+    }
+]
