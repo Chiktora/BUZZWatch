@@ -1,21 +1,14 @@
 #!/usr/bin/env python3
 
-import os
+from raspberry_pi_code.config import THINGSPEAK_API_KEY
 from raspberry_pi_code.services.api.thingspeak import ThingSpeakAPI
 
 def test_thingspeak():
     print("\nTesting ThingSpeak Connection:")
     print("-" * 30)
     
-    # Get API key from environment
-    api_key = os.getenv('THINGSPEAK_API_KEY')
-    if not api_key:
-        print("ERROR: ThingSpeak API key not found in environment variables!")
-        print("Please set THINGSPEAK_API_KEY environment variable.")
-        return False
-    
-    # Initialize ThingSpeak API
-    api = ThingSpeakAPI(api_key)
+    # Initialize ThingSpeak API with key from config
+    api = ThingSpeakAPI(THINGSPEAK_API_KEY)
     
     # Test connection
     return api.test_connection()

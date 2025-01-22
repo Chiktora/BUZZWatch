@@ -26,5 +26,6 @@ videos/
 # Environment variables
 .env
 
-# ThingSpeak API key file
+# Configuration files with sensitive data
+raspberry_pi_code/config.py
 start.sh 
