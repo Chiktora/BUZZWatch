@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+errors/
+test_output/
+captured_images/
+videos/
+
+# Environment variables
+.env
+
+# ThingSpeak API key file
+start.sh 

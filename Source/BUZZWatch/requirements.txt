@@ -1,0 +1,9 @@
+# CircuitPython
+Adafruit-Blinka
+adafruit-circuitpython-dht
+
+# HX711
+hx711
+
+# Networking
+requests
