@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set your ThingSpeak API key here
-export THINGSPEAK_API_KEY="your_api_key_here"
+# Activate virtual environment (if using one)
+# source ~/BUZZWatch/venv/bin/activate
 
 # Run the BUZZWatch program
 python raspberry_pi_code/scripts/run_pi.py 

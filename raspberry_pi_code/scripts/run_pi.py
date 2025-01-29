@@ -1,9 +1,9 @@
 # raspberry_pi_code/scripts/run_pi.py
 
 import time
-from raspberry_pi_code.config import THINGSPEAK_API_KEY, COLLECTION_INTERVAL
-from raspberry_pi_code.data_collection_layer.data_collector import DataCollector
-from raspberry_pi_code.errors import log_error_to_file
+from BUZZWatch.raspberry_pi_code.config import THINGSPEAK_API_KEY, COLLECTION_INTERVAL
+from BUZZWatch.raspberry_pi_code.data_collection_layer.data_collector import DataCollector
+from BUZZWatch.raspberry_pi_code.errors import log_error_to_file
 
 def main():
     print("[run_pi] Starting BUZZWatch...")

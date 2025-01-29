@@ -1,11 +1,12 @@
-# sensors.py (Redacted & Using CircuitPython DHT)
+# sensors.py (Using RPi.GPIO and adafruit-circuitpython-dht)
 
 import time
 import RPi.GPIO as GPIO
-import Adafruit_DHT
-from HX711 import HX711
-from raspberry_pi_code.errors import log_error_to_file
-from raspberry_pi_code.config import (
+import board
+import adafruit_dht
+from hx711 import HX711  # Updated import
+from BUZZWatch.raspberry_pi_code.errors import log_error_to_file
+from BUZZWatch.raspberry_pi_code.config import (
     INDOOR_DHT22_PIN,
     OUTDOOR_DHT22_PIN,
     HX711_DOUT_PIN,
@@ -17,26 +18,33 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 # --------------------------------------------------------
-# DHT22 (Using Adafruit_DHT) - Indoor and Outdoor sensors
+# DHT22 (Using CircuitPython) - Indoor and Outdoor sensors
 # --------------------------------------------------------
-DHT_SENSOR = Adafruit_DHT.DHT22
-
 try:
-    # Test reading from sensors
-    humidity_i, temperature_i = Adafruit_DHT.read_retry(DHT_SENSOR, INDOOR_DHT22_PIN)
-    humidity_o, temperature_o = Adafruit_DHT.read_retry(DHT_SENSOR, OUTDOOR_DHT22_PIN)
-    print(f"DHT22 sensors initialized: Indoor(GPIO{INDOOR_DHT22_PIN}), Outdoor(GPIO{OUTDOOR_DHT22_PIN})")
+    # Initialize DHT22 sensors
+    dht22_indoor = adafruit_dht.DHT22(getattr(board, f'D{INDOOR_DHT22_PIN}'))
+    dht22_outdoor = adafruit_dht.DHT22(getattr(board, f'D{OUTDOOR_DHT22_PIN}'))
+    print(f"DHT22 sensors configured: Indoor(GPIO{INDOOR_DHT22_PIN}), Outdoor(GPIO{OUTDOOR_DHT22_PIN})")
 except Exception as e:
-    log_error_to_file("ERR_DHT_INIT", str(e))
+    dht22_indoor = None
+    dht22_outdoor = None
+    log_error_to_file("ERR_DHT22_INIT", str(e))
     print(f"Error initializing DHT22 sensors: {str(e)}")
 
 # --------------------------------------------------------
 # HX711 - Weight Sensor
 # --------------------------------------------------------
 try:
-    hx = HX711(dout_pin=HX711_DOUT_PIN, pd_sck_pin=HX711_SCK_PIN)
-    hx.set_scale_ratio(1)  # No calibration
+    # Initialize HX711
+    hx = HX711(dout_pin=HX711_DOUT_PIN, sck_pin=HX711_SCK_PIN)
+    
+    # Reset and tare scale
+    hx.reset()
     hx.tare()
+    
+    # Set scale - you'll need to calibrate this value for your specific setup
+    hx.set_scale(1)  # Replace with your calibration value
+    
     print(f"HX711 sensor initialized: DOUT(GPIO{HX711_DOUT_PIN}), SCK(GPIO{HX711_SCK_PIN})")
 except Exception as e:
     hx = None
@@ -48,30 +56,52 @@ except Exception as e:
 # --------------------------------------------------------
 def read_dht22_indoor():
     """
-    Uses Adafruit_DHT to read temperature/humidity from the indoor sensor.
+    Uses CircuitPython to read temperature/humidity from the indoor sensor.
     Returns (temp_c, humidity) or (None, None) on error.
     """
+    if not dht22_indoor:
+        return None, None
+        
     try:
-        humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, INDOOR_DHT22_PIN)
-        if humidity is not None and temperature is not None:
+        temperature = dht22_indoor.temperature
+        humidity = dht22_indoor.humidity
+        
+        if temperature is not None and humidity is not None:
+            # Round to 1 decimal place
+            temperature = round(temperature, 1)
+            humidity = round(humidity, 1)
             return temperature, humidity
         else:
             log_error_to_file("ERR_DHT22_INDOOR", "No valid reading.")
+    except RuntimeError as e:
+        # DHT22 sometimes fails to read, this is normal
+        log_error_to_file("ERR_DHT22_INDOOR", f"Runtime error: {str(e)}")
     except Exception as e:
         log_error_to_file("ERR_DHT22_INDOOR", str(e))
     return None, None
 
 def read_dht22_outdoor():
     """
-    Uses Adafruit_DHT to read temperature/humidity from the outdoor sensor.
+    Uses CircuitPython to read temperature/humidity from the outdoor sensor.
     Returns (temp_c, humidity) or (None, None) on error.
     """
+    if not dht22_outdoor:
+        return None, None
+        
     try:
-        humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, OUTDOOR_DHT22_PIN)
-        if humidity is not None and temperature is not None:
+        temperature = dht22_outdoor.temperature
+        humidity = dht22_outdoor.humidity
+        
+        if temperature is not None and humidity is not None:
+            # Round to 1 decimal place
+            temperature = round(temperature, 1)
+            humidity = round(humidity, 1)
             return temperature, humidity
         else:
             log_error_to_file("ERR_DHT22_OUTDOOR", "No valid reading.")
+    except RuntimeError as e:
+        # DHT22 sometimes fails to read, this is normal
+        log_error_to_file("ERR_DHT22_OUTDOOR", f"Runtime error: {str(e)}")
     except Exception as e:
         log_error_to_file("ERR_DHT22_OUTDOOR", str(e))
     return None, None
@@ -87,7 +117,20 @@ def read_weight():
     if not hx:
         return None
     try:
-        return hx.get_weight_mean(5)
+        # Get average of 5 readings
+        readings = []
+        for _ in range(5):
+            readings.append(hx.get_weight())
+            time.sleep(0.1)
+        
+        # Remove any extreme values and average the rest
+        readings.sort()
+        if len(readings) >= 5:
+            readings = readings[1:-1]  # Remove highest and lowest
+        
+        weight = sum(readings) / len(readings)
+        return round(weight, 2)  # Round to 2 decimal places
+        
     except Exception as e:
         log_error_to_file("ERR_WEIGHT", str(e))
         return None
@@ -97,6 +140,10 @@ def cleanup():
     Clean up GPIO resources
     """
     try:
+        if dht22_indoor:
+            dht22_indoor.exit()
+        if dht22_outdoor:
+            dht22_outdoor.exit()
         GPIO.cleanup()
     except:
         pass
