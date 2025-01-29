@@ -5,30 +5,42 @@ import board
 import adafruit_dht
 from hx711 import HX711
 from raspberry_pi_code.errors import log_error_to_file
+from raspberry_pi_code.config import (
+    INDOOR_DHT22_PIN,
+    OUTDOOR_DHT22_PIN,
+    HX711_DOUT_PIN,
+    HX711_SCK_PIN
+)
 
 # --------------------------------------------------------
-# DHT22 (CircuitPython) - Indoor on board.D4, Outdoor on board.D17
+# DHT22 (CircuitPython) - Indoor and Outdoor sensors
 # --------------------------------------------------------
 try:
-    dht_indoor = adafruit_dht.DHT22(board.D4)     # BCM GPIO4
-    dht_outdoor = adafruit_dht.DHT22(board.D17)   # BCM GPIO17
+    # Use getattr to dynamically get the correct board pin
+    indoor_pin = getattr(board, f'D{INDOOR_DHT22_PIN}')
+    outdoor_pin = getattr(board, f'D{OUTDOOR_DHT22_PIN}')
+    
+    dht_indoor = adafruit_dht.DHT22(indoor_pin)
+    dht_outdoor = adafruit_dht.DHT22(outdoor_pin)
+    print(f"DHT22 sensors initialized: Indoor(GPIO{INDOOR_DHT22_PIN}), Outdoor(GPIO{OUTDOOR_DHT22_PIN})")
 except Exception as e:
     dht_indoor = None
     dht_outdoor = None
     log_error_to_file("ERR_DHT_INIT", str(e))
+    print(f"Error initializing DHT22 sensors: {str(e)}")
 
 # --------------------------------------------------------
 # HX711 - Weight Sensor
 # --------------------------------------------------------
-HX711_DOUT_GPIO = 5
-HX711_PD_SCK_GPIO = 6
 try:
-    hx = HX711(dout_pin=HX711_DOUT_GPIO, pd_sck_pin=HX711_PD_SCK_GPIO)
+    hx = HX711(dout_pin=HX711_DOUT_PIN, pd_sck_pin=HX711_SCK_PIN)
     hx.set_scale_ratio(1)  # No calibration
     hx.tare()
+    print(f"HX711 sensor initialized: DOUT(GPIO{HX711_DOUT_PIN}), SCK(GPIO{HX711_SCK_PIN})")
 except Exception as e:
     hx = None
     log_error_to_file("ERR_HX711_INIT", str(e))
+    print(f"Error initializing HX711 sensor: {str(e)}")
 
 # --------------------------------------------------------
 # DHT22 Read Functions

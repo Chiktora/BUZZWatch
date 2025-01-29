@@ -33,7 +33,7 @@ BUZZWatch is a Raspberry Pi-based monitoring system for beehives that collects:
 ## Installation
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/BUZZWatch.git
+git clone https://github.com/Chiktora/BUZZWatch.git
 cd BUZZWatch
 ```
 

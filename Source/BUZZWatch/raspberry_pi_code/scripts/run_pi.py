@@ -1,29 +1,20 @@
 # raspberry_pi_code/scripts/run_pi.py
 
-import os
 import time
+from raspberry_pi_code.config import THINGSPEAK_API_KEY, COLLECTION_INTERVAL
 from raspberry_pi_code.data_collection_layer.data_collector import DataCollector
 from raspberry_pi_code.errors import log_error_to_file
 
 def main():
     print("[run_pi] Starting BUZZWatch...")
 
-    # Get ThingSpeak API key from environment variable
-    thingspeak_api_key = os.getenv('THINGSPEAK_API_KEY')
-    if not thingspeak_api_key:
-        log_error_to_file("ERR_CONFIG", "ThingSpeak API key not found in environment variables")
-        return
-
-    # Initialize data collector
-    collector = DataCollector(thingspeak_api_key)
+    # Initialize data collector with API key from config
+    collector = DataCollector(THINGSPEAK_API_KEY)
     
     # Test ThingSpeak connection
     if not collector.thingspeak.test_connection():
         print("Program stopped due to ThingSpeak connection issue.")
         return
-    
-    # Data collection interval (in seconds)
-    COLLECTION_INTERVAL = 60  # Collect and upload data every minute
     
     print("[run_pi] Starting data collection...")
     

@@ -1,0 +1,11 @@
+# ThingSpeak API Configuration
+THINGSPEAK_API_KEY = "your_api_key_here"  # Replace with your ThingSpeak Write API Key
+
+# Sensor Configuration
+INDOOR_DHT22_PIN = 4    # GPIO4
+OUTDOOR_DHT22_PIN = 17  # GPIO17
+HX711_DOUT_PIN = 5     # GPIO5
+HX711_SCK_PIN = 6      # GPIO6
+
+# Data Collection Configuration
+COLLECTION_INTERVAL = 60  # seconds (1 minute) 
