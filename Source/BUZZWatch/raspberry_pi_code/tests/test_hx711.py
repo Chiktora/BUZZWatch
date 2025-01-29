@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import time
-from raspberry_pi_code.hardware_layer.sensors import read_weight
+from BUZZWatch.raspberry_pi_code.hardware_layer.sensors import read_weight
 
 def test_weight_sensor():
     print("\nTesting HX711 Weight Sensor (DOUT: GPIO5, SCK: GPIO6):")

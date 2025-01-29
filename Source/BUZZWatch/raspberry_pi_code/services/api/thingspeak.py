@@ -1,6 +1,6 @@
 import requests
 from typing import Optional, Dict, Any
-from raspberry_pi_code.errors import log_error_to_file
+from BUZZWatch.raspberry_pi_code.errors import log_error_to_file
 
 class ThingSpeakAPI:
     def __init__(self, api_key: str):

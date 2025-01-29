@@ -2,12 +2,12 @@
 
 import os
 import time
-from raspberry_pi_code.hardware_layer.sensors import (
+from BUZZWatch.raspberry_pi_code.hardware_layer.sensors import (
     read_dht22_indoor,
     read_dht22_outdoor,
     read_weight
 )
-from raspberry_pi_code.services.api.thingspeak import ThingSpeakAPI
+from BUZZWatch.raspberry_pi_code.services.api.thingspeak import ThingSpeakAPI
 
 def test_thingspeak_connection():
     """Test ThingSpeak connection"""
