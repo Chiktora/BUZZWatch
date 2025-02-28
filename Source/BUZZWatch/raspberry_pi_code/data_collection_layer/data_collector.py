@@ -6,7 +6,8 @@ from datetime import datetime
 from BUZZWatch.raspberry_pi_code.hardware_layer.sensors import (
     read_dht22_indoor,
     read_dht22_outdoor,
-    read_weight
+    read_weight,
+    read_weight_for_thingspeak
 )
 from BUZZWatch.raspberry_pi_code.services.api.thingspeak import ThingSpeakAPI
 from BUZZWatch.raspberry_pi_code.errors import log_error_to_file
